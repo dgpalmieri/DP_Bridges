@@ -8,6 +8,7 @@
 
 #include<vector>
 
-int build(const int & west, const int & east, const std::vector<std::vector<int>> & bridges);
+int build( const size_t & west, const size_t & east,
+           const std::vector< std::vector< int > > & bridges );
 
 #endif /* BUILD_HPP */
